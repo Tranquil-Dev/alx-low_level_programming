@@ -1,18 +1,13 @@
-#include <stdio.h>
-#include<unistd.h>
-
+#include <unistd.h>
 /**
- * main - prints exactly "and that piece of art is useful"
- * - Dora Korpar, 2015-10-19",
+ * main - prints exactly "and that piece of art is useful - Dora Korpar, 2015-10-19"
  *
- * Description: prints a string without using printf or puts functions
- *
- * Return: Always 0 (Success)
+ * Return: 1 at the end
  */
 int main(void)
 {
-	char Z[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	char str[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
-	write(2, Z, 59);
+	write(2, str, 59);
 	return (1);
 }
