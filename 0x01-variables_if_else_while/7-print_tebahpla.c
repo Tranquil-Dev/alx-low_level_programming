@@ -1,6 +1,7 @@
 #include <stdio.h>
+
 /**
- * main - A program that prints out the alphabets in reverse
+ * main - prints all alphabets in reverse order
  *
  * Return: 0
  */
@@ -8,8 +9,12 @@ int main(void)
 {
 	char alpha;
 
-	for (alpha = 'z'; alpha >= 'a'; alpha--)
+	alpha = 'z';
+	while (alpha >= 'a')
+	{
 		putchar(alpha);
+		alpha--;
+	}
 	putchar('\n');
 	return (0);
 }
