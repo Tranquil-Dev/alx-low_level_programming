@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - A program that prints out the alphabets in lowercase and uppercase
+ * main - A program that prints out the alphabets in reverse order
  *
  * Return: 0
  */
@@ -8,9 +8,7 @@ int main(void)
 {
 	char alpha;
 
-	for (alpha = 'a'; alpha <= 'z'; alpha++)
-		putchar(alpha);
-	for (alpha = 'A'; alpha <= 'Z'; alpha++)
+	for (alpha = 'z'; alpha >= 'a'; alpha--)
 		putchar(alpha);
 	putchar('\n');
 	return (0);
