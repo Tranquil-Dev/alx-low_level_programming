@@ -1,24 +1,35 @@
 #include <stdio.h>
 
 /**
- *  main - print hexadecimals
  *
- *   Return - 0
- */
+ *  * main - print if the number is postive, zero, or negative
+ *
+ *   *
+ *
+ *    * Description: using the main function
+ *
+ *     * this program prints "Programming is positive, zero, or negative
+ *
+ *      * Return: 0
+ *
+ *       */
+
 int main(void)
+
 {
-	int num = 0;
-	char b;
-	
-	b = 'z';
-	while (num < 16)
+
+	char c;
+
+	for (c = 'z'; c >= 'a'; c--)
+
 	{
-		if (num < 10)
-			putchar(num + '0');
-		else
-			putchar(b + (num % 10));
-		num++;
+
+		putchar(c);
+
 	}
+
 	putchar('\n');
+
 	return (0);
+
 }
