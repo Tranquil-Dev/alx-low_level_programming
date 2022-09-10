@@ -1,16 +1,19 @@
 #include <stdio.h>
+
 /**
- * main - print alphabet in reverse order
+ * main - prints all alphabets in reverse order
  *
  * Return: 0
  */
 int main(void)
 {
-	char alpha;
+	char z;
 
-	for (alpha = 'z'; alpha >= 'a'; alpha--)
+	z = 'z';
+	while (z >= 'a')
 	{
-		putchar(alpha);
+		putchar(z);
+		z--;
 	}
 	putchar('\n');
 	return (0);
