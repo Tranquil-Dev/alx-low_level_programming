@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
 * main - print the size of data types
 *
 * Return: 0 always
