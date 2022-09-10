@@ -12,7 +12,7 @@
  *
  */
 
-int main(void)	
+int main(void)
 {
 
 	int a = 0;
@@ -24,7 +24,7 @@ int main(void)
 	c = 'a';
 
 	while (a < 16)
-	{	
+	{
 		if (a < 10)
 			putchar(a + '0');
 		else
