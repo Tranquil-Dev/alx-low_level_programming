@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main -prints alphabet in reverse order
+ * main - prints all alphabets in reverse
  *
- * Return - 0
+ * Return: 0 always (Success)
  */
 int main(void)
 {
