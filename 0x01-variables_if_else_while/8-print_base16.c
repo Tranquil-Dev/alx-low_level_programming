@@ -7,17 +7,17 @@
  */
 int main(void)
 {
-	int a = 0;
-	char c;
+	int num = 0;
+	char alpha;
 
-	c = 'a';
-	while (a < 16)
+	alpha = 'a';
+	while (num < 16)
 	{
-		if (a < 10)
-			putchar(a + '0');
+		if (num < 10)
+			putchar(num + '0');
 		else
-			putchar(c + (a % 10));
-		a++;
+			putchar(alpha + (num % 10));
+		num++;
 	}
 	putchar('\n');
 	return (0);
