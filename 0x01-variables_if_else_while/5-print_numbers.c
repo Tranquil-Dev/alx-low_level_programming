@@ -1,17 +1,15 @@
 #include <stdio.h>
 /**
- * main - A program that will print all sigle digit numbers
+ * main - A program that prints all single digit numbers
  *
- * Return: always 0
+ * Return: 0
  */
 int main(void)
 {
-	int num;
-
-	for (num = 0; num < 10; num++)
-	{
-		printf("%d", num);
-	}
+	int b;
+	
+	for (b = 0; b < 10; b++)
+		printf("%d", b);
 	printf("\n");
 	return (0);
 }
