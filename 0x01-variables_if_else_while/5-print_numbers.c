@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - prints all single digit between 0-9
+ * main - prints all single digits 0-9
  *
- * Return - 0
+ * Return: 0
  */
 int main(void)
 {
