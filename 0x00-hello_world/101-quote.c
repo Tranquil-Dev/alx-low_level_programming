@@ -1,6 +1,6 @@
 #include <unistd.h>
 /**
- * Main - prints "and that piece of art is useful - Dora Korpar, 2015-10-19"
+ * main - prints "and that piece of art is useful - Dora Korpar, 2015-10-19"
  *
  * Return: 1 at the end
  */
