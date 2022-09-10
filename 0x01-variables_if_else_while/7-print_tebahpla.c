@@ -1,20 +1,17 @@
 #include <stdio.h>
-
 /**
- * main - prints all alphabets in reverse order
+ * main - A program that prints out the alphabets in lowercase and uppercase
  *
  * Return: 0
  */
 int main(void)
 {
-	char z;
+	char alpha;
 
-	z = 'z';
-	while (z >= 'a')
-	{
-		putchar(z);
-		z--;
-	}
+	for (alpha = 'a'; alpha <= 'z'; alpha++)
+		putchar(alpha);
+	for (alpha = 'A'; alpha <= 'Z'; alpha++)
+		putchar(alpha);
 	putchar('\n');
 	return (0);
 }
