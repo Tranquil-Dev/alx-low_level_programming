@@ -1,4 +1,4 @@
-#include <stdio.c>
+#include <stdio.h>
 
 /**
  *  main - print hexadecimals
@@ -13,11 +13,11 @@ int main(void)
 	b = 'z';
 	while (num < 16)
 	{
-		if (a < 10)
+		if (num < 10)
 			putchar(num + '0');
 		else
-			putchar(b + (num % 10);
-			num++
+			putchar(b + (num % 10));
+		num++;
 	}
 	putchar('\n');
 	return (0);
