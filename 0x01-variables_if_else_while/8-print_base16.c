@@ -12,11 +12,11 @@ int main(void)
 
 	for (num = 0; num < 17; num++)
 	{
-		putchar(n);
+		putchar(num);
 	}
 	for (alpha = 'a'; alpha <= 'f'; alpha++)
 	{
-		putchar(ch);
+		putchar(alpha);
 	}
 	putchar('\n');
 	return (0);
