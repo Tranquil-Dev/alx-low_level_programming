@@ -1,32 +1,44 @@
 #include <stdio.h>
 
+
+
 /**
  *
- *  * main - print if the number is postive, zero, or negative
+ *  * main - prints all digits
  *
  *   *
  *
- *    * Description: using the main function
+ *    * Return: 0 always (Success)
  *
- *     * this program prints "Programming is positive, zero, or negative
- *
- *      * Return: 0
- *
- *       */
+ *     */
 
 int main(void)
-
+	
 {
+
+	int a = 0;
 
 	char c;
 
-	for (c = 'z'; c >= 'a'; c--)
+
+
+	c = 'a';
+
+	while (a < 16)
 
 	{
-
-		putchar(c);
-
-	}
+	
+			if (a < 10)
+	
+				putchar(a + '0');
+	
+			else
+	
+				putchar(c + (a % 10));
+	
+			a++;
+	
+		}
 
 	putchar('\n');
 
