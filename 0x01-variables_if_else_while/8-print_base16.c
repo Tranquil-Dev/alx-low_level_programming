@@ -1,23 +1,23 @@
-#include <stdio.h>
+#include <stdio.c>
 
 /**
- * main - prints all digits
+ *  main - print hexadecimals
  *
- * Return: 0 always (Success)
+ *   Return - 0
  */
 int main(void)
 {
 	int num = 0;
-	char alpha;
-
-	alpha = 'a';
+	char b;
+	
+	b = 'z';
 	while (num < 16)
 	{
-		if (num < 10)
+		if (a < 10)
 			putchar(num + '0');
 		else
-			putchar(alpha + (num % 10));
-		num++;
+			putchar(b + (num % 10);
+			num++
 	}
 	putchar('\n');
 	return (0);
