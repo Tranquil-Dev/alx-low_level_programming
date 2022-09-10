@@ -3,26 +3,19 @@
 
 
 /**
- *
  *  * main - prints all digits
  *
- *   *
  *
- *    * Return: 0 always (Success)
+ *  * Return: 0 always (Success)
  *
  */
 
 int main(void)
 {
-
 	int a = 0;
-
 	char c;
 
-
-
 	c = 'a';
-
 	while (a < 16)
 	{
 		if (a < 10)
