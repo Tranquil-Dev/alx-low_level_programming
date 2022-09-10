@@ -1,14 +1,19 @@
 #include <stdio.h>
+
 /**
- * main - A code that prints all single digit numbers
+ * main - it prints all single digits from 0-9
  *
  * Return: 0
  */
 int main(void)
 {
-  int number;
-  for (number = 0; number < 10; number++)
-    printf("%d", number);
-  printf("\n");
-  return (0);
+	int number;
+
+	for(number=0; number < 10; number++)
+	{
+		printf("%d", number);
+		number++;
+	}
+	printf("\n");
+	return (0);
 }
