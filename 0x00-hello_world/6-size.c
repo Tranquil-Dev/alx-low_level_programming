@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- *  main - Displays size of data types
+ *  sizes - Displays size of data types
  *
  *  Return : Always 0
  */
-int main(void)
+int sizes(void)
 {
 	printf("Size of a char: %lu byte(s)\n", sizeof(char));
 	printf("Size of an int: %lu byte(s)\n", sizeof(int));
