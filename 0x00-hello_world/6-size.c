@@ -5,6 +5,9 @@
  *
  *  Return : Always 0
  */
+/**
+ * main - size of dt
+ */
 int main(void)
 {
 	printf("Size of a char: %lu byte(s)\n", sizeof(char));
