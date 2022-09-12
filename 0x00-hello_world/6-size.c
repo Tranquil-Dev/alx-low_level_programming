@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 /**
- *  main - Displays size of data types
+ * main - Entry point
  *
- *  Return : Always 0
+ * Description: size of different inputs
+ *
+ * Return: Always 0 (Success)
  */
 /**
  * main - size of dt
