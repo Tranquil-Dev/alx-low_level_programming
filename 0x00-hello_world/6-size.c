@@ -3,7 +3,7 @@
 /**
  *  main- displays the size of data types
  *
- *  Return - 0
+ *  Return : 0
  */
 int main(void)
 {
