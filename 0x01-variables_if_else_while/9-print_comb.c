@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- *  main - print hexadecimals
+ *  main - print single digit
  *
  *   Return: Always 0
  */
