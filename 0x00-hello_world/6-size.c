@@ -3,7 +3,7 @@
 /**
  *  main - Entry point
  *
- *  Description: displays size of data types
+ *  Description: 'displays size of data types'
  *
  *  Return : 0 if executed properly
  */
