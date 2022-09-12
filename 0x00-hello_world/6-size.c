@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 /**
- *  main - displays the size of data types
+ *  main - Entry point
+ *
+ * Description : displays size of data types
  *
  *  Return : 0
  */
