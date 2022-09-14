@@ -1,9 +1,12 @@
 #include "main.h"
 
 /**
- * main - check the code.
+ * _isalpha - A program that Shows 1 if the input is c
+ * letter Another cases, shows 0
  *
- * Return: Always 0.
+ * @c: The Charater is ASCII code
+ *
+ * Return: 1 for for letters. Returns 0 otherwise
  */
 int main(void)
 {
