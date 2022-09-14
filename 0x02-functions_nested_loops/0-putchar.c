@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *  main -Prints _putchar
+ * main - prints _putchar
  *
- *  Return : Always 0
+ * Return: 0 (success)
  */
 int main(void)
 {
