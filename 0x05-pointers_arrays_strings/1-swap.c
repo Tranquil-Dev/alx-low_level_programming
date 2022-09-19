@@ -6,7 +6,7 @@
  *  @*b : function parameter is a integer
  *  Return : none
  */
- void swap_int(int *a, int *b)
+void swap_int(int *a, int *b)
 {
 	int c = *a;
 	*a = *b;
