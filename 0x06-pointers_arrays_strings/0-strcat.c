@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- *_strcat - concatenates 2 strings
- * @ terminus : destination
- * @ src : source
- * Return returns pointer to destination
+ * _strcat - concatenates 2 strings
+ * @terminus : destination
+ * @src : source
+ * Return : returns pointer to destination
  */
-char *_strcat( char *terminus, char *src)
+char *_strcat(char *terminus, char *src)
 {
 	int count = 0; int count1 = 0;
 
