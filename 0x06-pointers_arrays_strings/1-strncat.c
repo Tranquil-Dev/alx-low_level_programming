@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _strncat - concatenates 2 strings
- * @ *terminus : destination
- * @ *src : source
+ *  _strncat - concatenates 2 strings
+ * @terminus : destination
+ * @src : source
  * @n : amount of n bytes from src
  * Return : pointer to terminus
  */
