@@ -8,7 +8,8 @@
  */
 char *_strcat(char *terminus, char *src)
 {
-	int count = 0; int count1 = 0;
+	int count = 0;
+	int count1 = 0;
 
 	while (*(terminus + count) != '\0')
 	{
